@@ -1,5 +1,5 @@
 flask
-gunicorn
+#gunicorn
 firebase_admin
 bs4
 waitress
