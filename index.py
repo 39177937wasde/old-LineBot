@@ -2,7 +2,7 @@
 from re import I
 import firebase_admin
 from firebase_admin import credentials, firestore
-cred = credentials.Certificate("D://資訊管理導論/mis-s1091785/misiia-firebase-adminsdk-nsa58-f993d289ac.json")
+cred = credentials.Certificate("misiia-firebase-adminsdk-nsa58-f993d289ac.json")
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 from flask import Flask, render_template, request,url_for,redirect, request, abort
